@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Hagrid";
+    src: url(../assets/fonts/hagrid/Hagrid-Regular-trial.ttf);
+}
+@font-face {
+    font-family: "Hagrid-i";
+    src: url(../assets/fonts/hagrid/Hagrid-Italic-trial.ttf);
+}
+@font-face {
+    font-family: "Hagrid-b";
+    src: url(../assets/fonts/hagrid/Hagrid-Text-Extrabold-trial.ttf);
+}
+@font-face {
+    font-family: "Hagrid-bi";
+    src: url(../assets/fonts/hagrid/Hagrid-Text-Extrabold-Italic-trial.ttf);
+}
+  
+:root {
+    --font-r: Hagrid;
+    --font-i: Hagrid-i;
+    --font-b: Hagrid-b;
+    --font-bi: Hagrid-bi;
+    --d-color: 16, 0, 27;
+}
+
+.font {
+    font-family: var(--font-r);
+    font-weight: normal;
+  }
+  .highlight {
+    font-family: var(--font-i);
+    color: rgb(var(--d-color));
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
