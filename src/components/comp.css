@@ -74,7 +74,7 @@ header{
 
 .bio-container{
     grid-column: 3/10;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 .bio-wrapper h1{
     position: relative;
@@ -206,4 +206,47 @@ header{
         font-size: 2rem;
         padding: 0rem 2rem;
     }
+}
+
+/* Bio section end */
+
+/* Project section start */
+
+.project-container{
+    grid-column: 2/12;
+    align-self: center;
+    justify-self: center;
+    margin: 5rem 0rem;
+}
+.projects-wrapper h1{
+    text-align: center;
+    font-size: 6rem;
+}
+.project-items{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0rem;
+}
+.project-item{
+    width: 45%;
+}
+.project-item img{
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+.project-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .5rem;
+}
+.more-info, .visit-project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
 }
