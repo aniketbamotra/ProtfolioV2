@@ -16,10 +16,10 @@ const TopMenu = () => {
         <img
           src={logo}
           alt=""
-          onclick={window.scrollTo({ top: 0, behavior: "smooth" })}
+          onClick={window.scrollTo({ top: 0, behavior: "smooth" })}
           className='logo'
         />
-        <div class="menu-icon" onMouseOver={menuOpen}>
+        <div className="menu-icon" onMouseOver={menuOpen}>
           <svg
             id="menu"
             viewBox="0 0 95 19"
@@ -32,8 +32,8 @@ const TopMenu = () => {
               x2="78"
               y2="2"
               stroke="#10001B"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
               id="u-line"
             />
             <line
@@ -42,25 +42,25 @@ const TopMenu = () => {
               x2="93"
               y2="17"
               stroke="#10001B"
-              stroke-width="4"
-              stroke-linecap="round"
+              strokeWidth="4"
+              strokeLinecap="round"
               id="l-line"
             />
           </svg>
         </div>
         <ul className='slide-in-menu slide-in-menu-close'>
-          <li class="font">
-            <a onclick="window.scrollTo({top:100.54, behavior: 'smooth'});">
+          <li className="font">
+            <a href=''>
               About
             </a>
           </li>
-          <li class="font">
-            <a onclick="window.scrollTo({top:4045.54, behavior: 'smooth'});">
+          <li className="font">
+            <a href=''>
               Projects
             </a>
           </li>
-          <li class="font">
-            <a onclick="window.scrollTo({top:7634.54, behavior: 'smooth'});">
+          <li className="font">
+            <a href=''>
               Contact
             </a>
           </li>

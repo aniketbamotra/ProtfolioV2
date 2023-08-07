@@ -7,6 +7,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    grid-column: 1/-1;
 }
 #menu{
     width: 95px;
@@ -52,6 +53,9 @@ header{
     }
 }
 @media screen and (max-width: 425px) {
+    header{
+        padding: 2rem 1rem 7rem 1rem;
+    }
     .logo{
         width: 3rem;
     }
@@ -65,3 +69,141 @@ header{
 }
 
 /* Header end */
+
+/* Bio section start */
+
+.bio-container{
+    grid-column: 3/10;
+    margin-bottom: 3rem;
+}
+.bio-wrapper h1{
+    position: relative;
+    left: 10%;
+    font-size: 4rem;
+    line-height: 5rem;
+}
+.bio-wrapper h1 span{
+    font-family: var(--font-b);
+    font-size: 7rem;
+}
+.bio-photo{
+    position: relative;
+    width: 70%;
+    left: 30%;
+    top: -2.5rem;
+    z-index: -1;
+}
+.bio-body{
+    font-size: 4rem;
+}
+.bio-body span{
+    font-family: var(--font-i);
+    position: relative;
+}
+.bio-body span::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #7BB7E2;
+}
+
+@media screen and (max-width: 1440px){
+    .bio-container{
+        grid-column: 3/9;
+    }
+    .bio-wrapper h1{
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+    .bio-wrapper h1 span{
+        font-size: 6rem;
+    }
+    .bio-photo{
+        width: 65%;
+    }
+    .bio-body{
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 1024px){
+    .bio-container{
+        grid-column: 2/8;
+    }
+    .bio-wrapper h1{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .bio-wrapper h1 span{
+        font-size: 5rem;
+    }
+    .bio-photo{
+        width: 70%;
+        top: -2rem;
+    }
+    .bio-body{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .bio-container{
+        grid-column: 2/6;
+    }
+    .bio-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bio-wrapper h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+        left: 0;
+    }
+    .bio-wrapper h1 span{
+        font-size: 4rem;
+        
+    }
+    .bio-photo{
+        width: 90%;
+        top: -1.5rem;
+        left: 0;
+
+    }
+    .bio-body{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 425px){
+    .bio-container{
+        grid-column: 1/-1;
+    }
+    .bio-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bio-wrapper h1{
+        font-size: 2rem;
+        line-height: 2rem;
+        left: 0;
+    }
+    .bio-wrapper h1 span{
+        font-size: 3rem;
+        
+    }
+    .bio-photo{
+        width: 80%;
+        top: -1rem;
+        left: 0;
+
+    }
+    .bio-body{
+        font-size: 2rem;
+        padding: 0rem 2rem;
+    }
+}

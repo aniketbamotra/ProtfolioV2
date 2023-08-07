@@ -26,7 +26,13 @@
 .font {
     font-family: var(--font-r);
     font-weight: normal;
+    color: #151617;
   }
+  .font-b {
+    font-family: var(--font-b);
+    font-weight: normal;
+    color: #151617;
+  }  
   .highlight {
     font-family: var(--font-i);
     color: rgb(var(--d-color));
@@ -39,4 +45,28 @@
 }
 body{
     overflow-x: hidden;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+@media screen and (max-width: 1440px) {    
+    .grid-container{
+        grid-template-columns: repeat(10, 1fr);
+    }
+}
+@media screen and (max-width: 1024px) {    
+    .grid-container{
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+@media screen and (max-width: 768px) {    
+    .grid-container{
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+@media screen and (max-width: 425px) {    
+    .grid-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
