@@ -17,7 +17,6 @@ const TopMenu = () => {
         <img
           src={newLogo}
           alt=""
-          onClick={window.scrollTo({ top: 0, behavior: "smooth" })}
           className='logo'
         />
         <div className="menu-icon" onMouseEnter={menuOpen}>
@@ -51,17 +50,17 @@ const TopMenu = () => {
         </div>
         <ul className='slide-in-menu slide-in-menu-close'>
           <li className="font">
-            <a href=''>
+            <a href='#bio'>
               About
             </a>
           </li>
           <li className="font">
-            <a href=''>
+            <a href='#project'>
               Projects
             </a>
           </li>
           <li className="font">
-            <a href=''>
+            <a href='#contact-title'>
               Contact
             </a>
           </li>

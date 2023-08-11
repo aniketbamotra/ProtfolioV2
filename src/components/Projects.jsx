@@ -8,7 +8,7 @@ import purebet from "../images/Purebet.png";
 
 const Projects = () => {
   return (
-    <div className="project-container">
+    <div className="project-container" id="project">
       <div className="projects-wrapper">
         <h1 className="font-b">Projects!</h1>
         <div className="project-items">

@@ -11,7 +11,7 @@ const Bio = () => {
         <script src={withPrefix('anime.js')}></script>
       </Helmet> */}
 
-      <div className="bio-wrapper">
+      <div className="bio-wrapper" id="bio">
         <div className="top-heading">
           <h1 className="font">
             I'm a
