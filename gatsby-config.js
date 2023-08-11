@@ -5,5 +5,12 @@ module.exports = {
   siteMetadata: {
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [
+    {
+    resolve: 'gatsby-plugin-manifest',
+    options: {
+      "icon": "src/images/Logo.png"
+    }
+  },
+  `gatsby-plugin-react-helmet`],
 }

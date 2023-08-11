@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import logo from "../images/logo.svg"
+import newLogo from "../images/Logo.png"
 import "./comp.css"
 
 const TopMenu = () => {
@@ -14,7 +15,7 @@ const TopMenu = () => {
   return (
     <header>
         <img
-          src={logo}
+          src={newLogo}
           alt=""
           onClick={window.scrollTo({ top: 0, behavior: "smooth" })}
           className='logo'

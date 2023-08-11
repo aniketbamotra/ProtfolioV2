@@ -35,7 +35,7 @@
   }  
   .highlight {
     font-family: var(--font-i);
-    color: rgb(var(--d-color));
+    color: #151617;
   }
 
 *{
