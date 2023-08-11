@@ -19,7 +19,7 @@ const Projects = () => {
               className="item1"
             />
             <div className="project-links">
-              <div className="more-info font">
+              <a href="https://www.behance.net/gallery/174224683/Immersive-Bionic" target="_blank" className="more-info ">
                 More Details
                 <svg
                   width="24"
@@ -41,8 +41,8 @@ const Projects = () => {
                     fill="black"
                   />
                 </svg>
-              </div>
-              <div className="visit-project font">
+              </a>
+              <a href="https://www.behance.net/gallery/174224683/Immersive-Bionic" target="_blank" className="visit-project ">
                 Visit Project
                 <svg
                   width="24"
@@ -52,25 +52,25 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M17.5605 13.753C17.5605 13.0829 17.8203 12.5396 18.4567 12.5396C19.0932 12.5396 19.225 13.0829 19.225 13.753V21.0336C19.225 23.044 18.0613 23.9997 16.1521 23.9997H3.47638C1.56713 23.9997 0.787598 23.044 0.787598 21.0335L1.04367 7.68599C1.04367 5.67552 1.56713 4.4502 3.47638 4.4502H10.2624C10.8988 4.4502 11.5427 4.58892 11.5427 5.25907C11.5427 5.92922 11.0268 6.06809 10.3904 6.06809H3.47638C2.83996 6.06809 2.58012 7.01583 2.58012 7.68599L2.45208 21.0335C2.45208 21.7037 2.83996 22.247 3.47638 22.247H16.1521C16.7885 22.247 17.5605 21.7037 17.5605 21.0335V13.753Z"
                     fill="black"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M22.2976 1.48307H16.1518C15.5154 1.48307 14.9995 1.4791 14.9995 0.808947C14.9995 0.138793 15.5154 0 16.1518 0H23.0659C23.7023 0 23.8341 0.138793 23.8341 0.808947V8.08947C23.8341 8.75963 23.7023 9.30289 23.0659 9.30289C22.4294 9.30289 22.2976 8.75963 22.2976 8.08947V1.48307Z"
                     fill="black"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M10.4707 15.5377C10.0207 16.0116 9.22516 16.077 9.0157 15.8564C8.80623 15.6358 8.74033 14.933 9.19034 14.4591L21.93 1.04405C22.3801 0.570182 22.871 0.318864 23.321 0.792735C23.771 1.2666 23.5324 1.78362 23.0824 2.25749L10.4707 15.5377Z"
                     fill="black"
                   />
                 </svg>
-              </div>
+              </a>
             </div>
           </div>
           <div className="project-item">
@@ -80,7 +80,7 @@ const Projects = () => {
               className="project-item item2"
             />
             <div className="project-links">
-              <div className="more-info font">
+              <a  href="https://github.com/aniketbamotra/SpacedOut" target="_blank" className="more-info ">
                 More Details
                 <svg
                   width="24"
@@ -102,8 +102,8 @@ const Projects = () => {
                     fill="black"
                   />
                 </svg>
-              </div>
-              <div className="visit-project font">
+              </a>
+              <a href="https://deft-cannoli-eb482a.netlify.app/" target="_blank" className="visit-project ">
                 Visit Project
                 <svg
                   width="24"
@@ -113,25 +113,25 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M17.5605 13.753C17.5605 13.0829 17.8203 12.5396 18.4567 12.5396C19.0932 12.5396 19.225 13.0829 19.225 13.753V21.0336C19.225 23.044 18.0613 23.9997 16.1521 23.9997H3.47638C1.56713 23.9997 0.787598 23.044 0.787598 21.0335L1.04367 7.68599C1.04367 5.67552 1.56713 4.4502 3.47638 4.4502H10.2624C10.8988 4.4502 11.5427 4.58892 11.5427 5.25907C11.5427 5.92922 11.0268 6.06809 10.3904 6.06809H3.47638C2.83996 6.06809 2.58012 7.01583 2.58012 7.68599L2.45208 21.0335C2.45208 21.7037 2.83996 22.247 3.47638 22.247H16.1521C16.7885 22.247 17.5605 21.7037 17.5605 21.0335V13.753Z"
                     fill="black"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M22.2976 1.48307H16.1518C15.5154 1.48307 14.9995 1.4791 14.9995 0.808947C14.9995 0.138793 15.5154 0 16.1518 0H23.0659C23.7023 0 23.8341 0.138793 23.8341 0.808947V8.08947C23.8341 8.75963 23.7023 9.30289 23.0659 9.30289C22.4294 9.30289 22.2976 8.75963 22.2976 8.08947V1.48307Z"
                     fill="black"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M10.4707 15.5377C10.0207 16.0116 9.22516 16.077 9.0157 15.8564C8.80623 15.6358 8.74033 14.933 9.19034 14.4591L21.93 1.04405C22.3801 0.570182 22.871 0.318864 23.321 0.792735C23.771 1.2666 23.5324 1.78362 23.0824 2.25749L10.4707 15.5377Z"
                     fill="black"
                   />
                 </svg>
-              </div>
+              </a>
             </div>
           </div>
           <div className="project-item">
@@ -141,7 +141,7 @@ const Projects = () => {
               className="project-item item3"
             />
             <div className="project-links">
-              <div className="more-info font">
+              <a href="https://docs.purebet.io/about-purebet/why-purebet" target="_blank" className="more-info ">
                 More Details
                 <svg
                   width="24"
@@ -163,8 +163,8 @@ const Projects = () => {
                     fill="black"
                   />
                 </svg>
-              </div>
-              <div className="visit-project font">
+              </a>
+              <a href="https://www.purebet.io/" target="_blank" className="visit-project ">
                 Visit Project
                 <svg
                   width="24"
@@ -174,25 +174,25 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M17.5605 13.753C17.5605 13.0829 17.8203 12.5396 18.4567 12.5396C19.0932 12.5396 19.225 13.0829 19.225 13.753V21.0336C19.225 23.044 18.0613 23.9997 16.1521 23.9997H3.47638C1.56713 23.9997 0.787598 23.044 0.787598 21.0335L1.04367 7.68599C1.04367 5.67552 1.56713 4.4502 3.47638 4.4502H10.2624C10.8988 4.4502 11.5427 4.58892 11.5427 5.25907C11.5427 5.92922 11.0268 6.06809 10.3904 6.06809H3.47638C2.83996 6.06809 2.58012 7.01583 2.58012 7.68599L2.45208 21.0335C2.45208 21.7037 2.83996 22.247 3.47638 22.247H16.1521C16.7885 22.247 17.5605 21.7037 17.5605 21.0335V13.753Z"
                     fill="black"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M22.2976 1.48307H16.1518C15.5154 1.48307 14.9995 1.4791 14.9995 0.808947C14.9995 0.138793 15.5154 0 16.1518 0H23.0659C23.7023 0 23.8341 0.138793 23.8341 0.808947V8.08947C23.8341 8.75963 23.7023 9.30289 23.0659 9.30289C22.4294 9.30289 22.2976 8.75963 22.2976 8.08947V1.48307Z"
                     fill="black"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M10.4707 15.5377C10.0207 16.0116 9.22516 16.077 9.0157 15.8564C8.80623 15.6358 8.74033 14.933 9.19034 14.4591L21.93 1.04405C22.3801 0.570182 22.871 0.318864 23.321 0.792735C23.771 1.2666 23.5324 1.78362 23.0824 2.25749L10.4707 15.5377Z"
                     fill="black"
                   />
                 </svg>
-              </div>
+              </a>
             </div>
           </div>
           <div className="project-item">
@@ -202,7 +202,7 @@ const Projects = () => {
               className="project-item item4"
             />
             <div className="project-links">
-              <div className="more-info font">
+              <a href="https://github.com/aniketbamotra/Woodsy-Shop" target="_blank" className="more-info ">
                 More Details
                 <svg
                   width="24"
@@ -224,8 +224,8 @@ const Projects = () => {
                     fill="black"
                   />
                 </svg>
-              </div>
-              <div className="visit-project font">
+              </a>
+              <a href="https://subtle-cannoli-f57c96.netlify.app/" target="_blank" className="visit-project ">
                 Visit Project
                 <svg
                   width="24"
@@ -235,25 +235,25 @@ const Projects = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M17.5605 13.753C17.5605 13.0829 17.8203 12.5396 18.4567 12.5396C19.0932 12.5396 19.225 13.0829 19.225 13.753V21.0336C19.225 23.044 18.0613 23.9997 16.1521 23.9997H3.47638C1.56713 23.9997 0.787598 23.044 0.787598 21.0335L1.04367 7.68599C1.04367 5.67552 1.56713 4.4502 3.47638 4.4502H10.2624C10.8988 4.4502 11.5427 4.58892 11.5427 5.25907C11.5427 5.92922 11.0268 6.06809 10.3904 6.06809H3.47638C2.83996 6.06809 2.58012 7.01583 2.58012 7.68599L2.45208 21.0335C2.45208 21.7037 2.83996 22.247 3.47638 22.247H16.1521C16.7885 22.247 17.5605 21.7037 17.5605 21.0335V13.753Z"
                     fill="black"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M22.2976 1.48307H16.1518C15.5154 1.48307 14.9995 1.4791 14.9995 0.808947C14.9995 0.138793 15.5154 0 16.1518 0H23.0659C23.7023 0 23.8341 0.138793 23.8341 0.808947V8.08947C23.8341 8.75963 23.7023 9.30289 23.0659 9.30289C22.4294 9.30289 22.2976 8.75963 22.2976 8.08947V1.48307Z"
                     fill="black"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M10.4707 15.5377C10.0207 16.0116 9.22516 16.077 9.0157 15.8564C8.80623 15.6358 8.74033 14.933 9.19034 14.4591L21.93 1.04405C22.3801 0.570182 22.871 0.318864 23.321 0.792735C23.771 1.2666 23.5324 1.78362 23.0824 2.25749L10.4707 15.5377Z"
                     fill="black"
                   />
                 </svg>
-              </div>
+              </a>
             </div>
           </div>
         </div>

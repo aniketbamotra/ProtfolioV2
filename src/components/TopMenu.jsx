@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from "../images/logo.svg"
 import "./comp.css"
 
@@ -19,7 +19,7 @@ const TopMenu = () => {
           onClick={window.scrollTo({ top: 0, behavior: "smooth" })}
           className='logo'
         />
-        <div className="menu-icon" onMouseOver={menuOpen}>
+        <div className="menu-icon" onMouseEnter={menuOpen}>
           <svg
             id="menu"
             viewBox="0 0 95 19"

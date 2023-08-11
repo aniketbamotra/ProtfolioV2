@@ -22,7 +22,7 @@ const Bio = () => {
           </h1>
         </div>
         <img src={bioPhoto} alt="bio photo" className="bio-photo" />
-        <p className="bio-body font">Hey there! <br />I'm <span>Aniket </span><span>Bamotra, </span>infusing the tech cosmos with a burst of design flair! <br /><br />As a <span>CS</span><span> undergrad,</span> I'm not just building <span>websites</span> – I'm sculpting <span>interactive</span><span> masterpieces</span>.</p>
+        <p className="bio-body font">Hey there! <br />I'm <span>Aniket </span><span>Bamotra,</span> infusing the tech cosmos with a burst of design flair! <br /><br />As a <span>CS</span><span> undergrad,</span> I'm not just building <span>websites</span> – I'm sculpting <span>interactive</span><span> masterpieces</span>.</p>
       </div>
     </div>
   );

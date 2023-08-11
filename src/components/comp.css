@@ -249,4 +249,47 @@ header{
     align-items: center;
     justify-content: center;
     gap: .5rem;
+    font-family: var(--font-i);
+    color: #151617;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1440px){
+    .project-container{
+        grid-column: 2/10;
+    }
+}
+@media screen and (max-width: 1024px){
+    .project-container{
+        grid-column: 2/8;
+    }
+    .projects-wrapper h1{
+        font-size: 5rem;
+    }
+    .project-items{
+        padding: 5rem 0rem;
+    }
+    .project-item{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 768px){
+    .project-container{
+        grid-column: 2/6;
+    }
+    .projects-wrapper h1{
+        font-size: 4rem;
+    }
+    .project-item{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 425px){
+    .project-container{
+        grid-column: 1/-1;
+        padding: 0rem 2rem;
+    }
+    .projects-wrapper h1{
+        font-size: 3rem;
+    }
 }
