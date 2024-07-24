@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useSpring, animated } from "react-spring";
 import "./comp.css";
 import woodsy from "../images/woodsy.png";
-import spacedOut from "../images/A4 - 1.png";
+import suncare from "../images/suncare.png"
 import immersiveBionic from "../images/Desktop - 1.png";
 import purebet from "../images/Purebet.png";
 
@@ -19,7 +19,7 @@ const Projects = () => {
               className="item1"
             />
             <div className="project-links">
-              <a href="https://www.behance.net/gallery/174224683/Immersive-Bionic" target="_blank" className="more-info ">
+              {/* <a href="https://www.behance.net/gallery/174224683/Immersive-Bionic" target="_blank" className="more-info ">
                 More Details
                 <svg
                   width="24"
@@ -41,7 +41,7 @@ const Projects = () => {
                     fill="black"
                   />
                 </svg>
-              </a>
+              </a> */}
               <a href="https://www.behance.net/gallery/174224683/Immersive-Bionic" target="_blank" className="visit-project ">
                 Visit Project
                 <svg
@@ -75,12 +75,12 @@ const Projects = () => {
           </div>
           <div className="project-item">
             <img
-              src={spacedOut}
+              src={suncare}
               alt="project thumbil"
               className="project-item item2"
             />
             <div className="project-links">
-              <a  href="https://github.com/aniketbamotra/SpacedOut" target="_blank" className="more-info ">
+              {/* <a  href="https://github.com/aniketbamotra/SpacedOut" target="_blank" className="more-info ">
                 More Details
                 <svg
                   width="24"
@@ -102,8 +102,8 @@ const Projects = () => {
                     fill="black"
                   />
                 </svg>
-              </a>
-              <a href="https://deft-cannoli-eb482a.netlify.app/" target="_blank" className="visit-project ">
+              </a> */}
+              <a href="https://www.suncareformulations.com/" target="_blank" className="visit-project ">
                 Visit Project
                 <svg
                   width="24"
@@ -141,7 +141,7 @@ const Projects = () => {
               className="project-item item3"
             />
             <div className="project-links">
-              <a href="https://docs.purebet.io/about-purebet/why-purebet" target="_blank" className="more-info ">
+              {/* <a href="https://docs.purebet.io/about-purebet/why-purebet" target="_blank" className="more-info ">
                 More Details
                 <svg
                   width="24"
@@ -163,7 +163,7 @@ const Projects = () => {
                     fill="black"
                   />
                 </svg>
-              </a>
+              </a> */}
               <a href="https://www.purebet.io/" target="_blank" className="visit-project ">
                 Visit Project
                 <svg
@@ -195,7 +195,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="project-item">
+          {/* <div className="project-item">
             <img
               src={woodsy}
               alt="project thumbil"
@@ -255,7 +255,7 @@ const Projects = () => {
                 </svg>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
